@@ -1,0 +1,195 @@
+﻿/*navbar link*/ .navbar-default .navbar-nav > li > a
+/*brand name*/ .navbar-inverse .navbar-brand {
+    color: #bbb;
+}
+.navbar-brand span,
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #E41B17;
+}
+.dropdown-menu {
+    background-color: #333;
+}
+.dropdown-menu > li > a,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+        color: #fff;
+    }
+.dropdown-menu {
+    background-color: #0e0f66;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+        background-color: #E41B17;
+    }
+.dropdown-menu .divider {
+        background-color: #871818;
+    }
+.navbar-inverse {
+    background-color: #0e0f66;
+    border-color: #000000;
+}
+.carousel .btn {
+    border-color: rgba(53, 21, 255, 1);
+    background-color: rgba(53, 21, 255, 1);
+}
+.carousel .btn:hover {
+        background-color: #E41B17;
+        border-color: #E41B17;
+    }
+h1, .h1 {
+    color: #00efff;
+}
+.about .ah1 {
+    color: black;
+}
+.about .lead {
+    color: #888;
+}
+.about .ah1 span {
+    color: #E41B17;
+}
+.features {
+    background: #EEE;
+}
+.features h1 {
+        color: black;
+    }
+.features .feat span.glyphicon {
+        color: #211e1e;
+    }
+.testimonials h1 {
+    color: black;
+}
+.testimonials span {
+    color: #E41B17;
+}
+.testimonials .carousel-indicators li.active {
+    opacity: 1;
+    border: 3px solid #E41B17;
+}
+.team .Team {
+    background-color: rgba(6, 2, 91, 0.5);
+    color: #fff;
+}
+.subscribe {
+    background: #EEE;
+}
+.subscribe h1 {
+        color: #080081;
+    }
+.subscribe .lead {
+        color: #9a0000;
+    }
+.subscribe .btn-danger:hover {
+        color: #fff;
+        background-color: #E41B17;
+        border-color: #E41B17;
+    }
+.subscribe .btn-danger {
+        border-color: rgba(53, 21, 255, 0.86);
+        background-color: rgba(53, 21, 255, 0.86);
+    }
+.stat .data {
+    background-color: rgba(6, 2, 91, 0.5);
+    color: #00b3c0;
+}
+.stat h1 {
+    color: #00ddff;
+}
+.stat .stats:hover {
+    color: #EEE;
+}
+.Our-achievement h1 {
+    color: black;
+}
+.Our-achievement .btn:hover {
+    background-color: #E41B17;
+}
+.Our-achievement .btn {
+    background-color: rgba(53, 21, 255, 0.86);
+}
+.contact-us .fields {
+    background-color: rgba(6, 2, 91, 0.5);
+    color: #00b3c0;
+}
+.contact-us .fields h1 {
+    color:rgba(51, 0, 241, 0.97);
+}
+.contact-us .lead {
+    color: #acf6ff;
+}
+.contact-us .btn:hover {
+    background-color: #E41B17;
+}
+.contact-us .btn {
+    background-color: rgba(53, 21, 255, 0.86);
+}
+.contact-us input[type="text"], .contact-us textarea {
+    background: rgba(238, 234, 234, 0.97);
+}
+.contact-us input[type="text"]:hover, .contact-us textarea:hover {
+        background: #fff;
+    }
+.footer {
+    color: #AAA;
+}
+.footer .a {
+        color: #AAA;
+    }
+.footer .a:hover {
+            color: #fff;
+        }
+.footer h3 {
+        color: #00efff;
+    }
+.footer .three-columns li:hover {
+        color: #fff;
+    }
+.footer .img-thumbnail {
+        background-color: black;
+    }
+.copyright .c {
+    background-color: rgba(7, 0, 0, 0.93);
+    color: #fff;
+}
+.copyright span {
+    color: #E41B17;
+}
+.option-box .color-option {
+    background-color: rgba(0, 239, 255, 0.16);
+}
+.option-box .color-option h4 {
+        color: #E41B17;
+    }
+.option-box .color-option ul li {
+        background: #E41B17;
+    }
+.option-box .fa-cog {
+    background: #E41B17;
+    color: #0e0f66;
+}
+.price_table {
+    background-color: #EEE;
+}
+.price_table .btn-primary 
+{
+    background-color:#0e0f66;
+}
+.price_table .btn-primary:hover
+{
+    background-color:#E41B17;
+}
+.price_table .price_box h2
+{
+    color:#0e0f66;
+}
+.price_table .price_box .p1
+{
+    background-color:rgba(0, 8, 246, 0.59);
+    color:#650202;
+}
+.container-fluid .btn:hover {
+    background-color: #E41B17;
+}

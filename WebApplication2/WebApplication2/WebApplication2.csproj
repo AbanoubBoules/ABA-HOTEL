@@ -1,0 +1,224 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6DB70386-3BFC-4A29-BEBB-64D01DE9D90D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApplication2</RootNamespace>
+    <AssemblyName>WebApplication2</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="2-color.css" />
+    <Content Include="default-color.css" />
+    <Content Include="Gallery.html" />
+    <Content Include="gimages\48900900_1282153385.jpeg" />
+    <Content Include="gimages\bdb40e52b923463f9e0ddfdeaf965e4a--family-rooms-living-rooms.jpg" />
+    <Content Include="gimages\cabana-1.jpg" />
+    <Content Include="gimages\contactus.jpg" />
+    <Content Include="gimages\download %281%29.jpg" />
+    <Content Include="gimages\download %283%29.jpg" />
+    <Content Include="gimages\download %284%29.jpg" />
+    <Content Include="gimages\download %285%29.jpg" />
+    <Content Include="gimages\download %286%29.jpg" />
+    <Content Include="gimages\download.jpg" />
+    <Content Include="gimages\hkh_rooms_banner_2.jpg" />
+    <Content Include="gimages\images %281%29.jpg" />
+    <Content Include="gimages\images %282%29.jpg" />
+    <Content Include="gimages\images.jpg" />
+    <Content Include="gimages\living-rooms_100.jpg" />
+    <Content Include="gimages\lyrh-1.jpg" />
+    <Content Include="gimages\new rooms.jpg" />
+    <Content Include="gimages\OIP %281%29.jpg" />
+    <Content Include="gimages\OIP.jpg" />
+    <Content Include="gimages\thumb-5c58b2ef4260b114ffa1357f7d5aae1f-1920x1080.jpg" />
+    <Content Include="gimages\triple_room_1.jpg" />
+    <Content Include="gimages\wetroom-design11.jpg" />
+    <Content Include="HtmlPage1.html" />
+    <Content Include="images\110674104-pop-art-hipster-man-face-vector-illustration-graphic-design.jpg" />
+    <Content Include="images\1216391.jpg" />
+    <Content Include="images\122382623-pop-art-face-man-with-beard-and-cool-hairstyle-and-beard-isolated.jpg" />
+    <Content Include="images\15450-mg4179-1920x700.jpg" />
+    <Content Include="images\15450.mg4179.jpg" />
+    <Content Include="images\background-wallpaper-1.jpg" />
+    <Content Include="images\cks8Vy.jpg" />
+    <Content Include="images\de_westpark_lobby_header-1920x700.png" />
+    <Content Include="images\download.jpeg" />
+    <Content Include="images\hj8pyPO.jpg" />
+    <Content Include="images\HotelBellLarge.jpg" />
+    <Content Include="images\images.jpeg" />
+    <Content Include="images\inner-banner-1920x700.jpg" />
+    <Content Include="images\ivanhoe-lake-provincial-park-1920x700.jpg" />
+    <Content Include="images\LoginCompositeBackground.png" />
+    <Content Include="images\pyramid-sky-desert-ancient.jpg" />
+    <Content Include="images\room1.jpg" />
+    <Content Include="images\room2.jpg" />
+    <Content Include="images\room3.jpg" />
+    <Content Include="images\tour_img-364559-148.jpg" />
+    <Content Include="jquery\jquery-3.1.1.js" />
+    <Content Include="jquery\jquery-3.1.1.min.js" />
+    <Content Include="jquery\jquery-3.5.0.min.js" />
+    <Content Include="jquery\jquery-migrate-1.4.1.min.js" />
+    <Content Include="jquery\lightbox.css" />
+    <Content Include="jquery\lightbox.min.css" />
+    <Content Include="jquery\lightbox.min.js" />
+    <Content Include="media.css" />
+    <Content Include="NewFolder1\all.min.css" />
+    <Content Include="NewFolder1\bootstrap\css\bootstrap-theme.css" />
+    <Content Include="NewFolder1\bootstrap\css\bootstrap-theme.min.css" />
+    <Content Include="NewFolder1\bootstrap\css\bootstrap.css" />
+    <Content Include="NewFolder1\bootstrap\css\bootstrap.min.css" />
+    <Content Include="NewFolder1\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="NewFolder1\bootstrap\js\bootstrap.js" />
+    <Content Include="NewFolder1\bootstrap\js\bootstrap.min.js" />
+    <Content Include="NewFolder1\bootstrap\js\npm.js" />
+    <Content Include="NewFolder1\Content\bootstrap-theme.css" />
+    <Content Include="NewFolder1\Content\bootstrap-theme.min.css" />
+    <Content Include="NewFolder1\Content\bootstrap.css" />
+    <Content Include="NewFolder1\Content\bootstrap.min.css" />
+    <Content Include="NewFolder1\hover.css" />
+    <Content Include="NewFolder1\lightbox.min.css" />
+    <Content Include="NewFolder1\Scripts\animate.css" />
+    <Content Include="NewFolder1\Scripts\bootstrap.js" />
+    <Content Include="NewFolder1\Scripts\bootstrap.min.js" />
+    <Content Include="NewFolder1\Scripts\jquery.nicescroll.min.js" />
+    <Content Include="NewFolder1\Scripts\lightbox-plus-jquery.min.js" />
+    <Content Include="NewFolder1\Scripts\wow.min.js" />
+    <Content Include="plugin.js" />
+    <Content Include="sign in.html" />
+    <Content Include="sign up.html" />
+    <Content Include="signin.css" />
+    <Content Include="signup.css" />
+    <Content Include="social media icons\facebook %281%29.png" />
+    <Content Include="social media icons\facebook.png" />
+    <Content Include="social media icons\google-plus.png" />
+    <Content Include="social media icons\instagram.png" />
+    <Content Include="social media icons\twitter.png" />
+    <Content Include="social media icons\youtube.png" />
+    <Content Include="StyleSheet1.css" />
+    <Content Include="StyleSheet2.css" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="images\unnamed.webp" />
+    <Content Include="gimages\unnamed.webp" />
+    <Content Include="NewFolder1\bootstrap\css\bootstrap-theme.css.map" />
+    <Content Include="NewFolder1\bootstrap\css\bootstrap-theme.min.css.map" />
+    <Content Include="NewFolder1\bootstrap\css\bootstrap.css.map" />
+    <Content Include="NewFolder1\bootstrap\css\bootstrap.min.css.map" />
+    <Content Include="NewFolder1\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="NewFolder1\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="NewFolder1\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="NewFolder1\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="NewFolder1\Content\bootstrap-theme.css.map" />
+    <Content Include="NewFolder1\Content\bootstrap-theme.min.css.map" />
+    <Content Include="NewFolder1\Content\bootstrap.css.map" />
+    <Content Include="NewFolder1\Content\bootstrap.min.css.map" />
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49632</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:49632/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

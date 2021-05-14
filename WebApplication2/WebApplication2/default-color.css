@@ -1,0 +1,217 @@
+﻿body {
+}
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus 
+{
+    background-color: black;
+}
+/*navbar link*/ .navbar-default .navbar-nav > li > a
+                {
+                    color:#1000b6;
+                }
+/*brand name*/ .navbar-inverse .navbar-brand {
+    color: #fff;
+}
+.navbar-brand span,
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus 
+{
+    color: #1000b6;
+}
+.dropdown-menu {
+    background-color: #E41B17;
+}
+.dropdown-menu > li > a,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus 
+    {
+        color: #fff;
+    }
+.dropdown-menu {
+    background-color: #E41B17;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+        background-color: #0e0f66;
+    }
+.dropdown-menu .divider {
+        background-color: #0e0f66;
+    }
+.navbar-inverse {
+    background-color:black;
+    border-color: black;
+}
+.carousel .btn {
+    border-color:#E41B17;
+    background-color: #E41B17;
+}
+.carousel .btn:hover {
+        background-color: #1000b6;
+        border-color: #1000b6;
+    }
+h1, .h1 {
+    color: #00efff;
+}
+.about .ah1 {
+    color: black;
+}
+.about .lead {
+    color: #888;
+}
+.about .ah1 span {
+    color: #1000b6;
+}
+.features {
+    background: #AAA;
+}
+.features h1 {
+        color: black;
+    }
+.features .feat span.glyphicon {
+        color: #1000b6;
+    }
+.testimonials h1 {
+    color: black;
+}
+.testimonials span {
+    color: #1000b6;
+}
+.testimonials .carousel-indicators li.active {
+    opacity: 1;
+    border: 3px solid #1000b6;
+}
+.team .Team {
+    background-color: rgba(6, 2, 91, 0.5);
+    color: #fff;
+}
+.team h1
+{
+    color:#E41B17;
+}
+.subscribe {
+    background: #AAA;
+}
+.subscribe h1 {
+        color: #E41B17;
+    }
+.subscribe .lead {
+        color: #1000b6;
+    }
+.subscribe .btn-danger:hover {
+        color: #fff;
+        background-color: #1000b6;
+        border-color: #1000b6;
+    }
+.subscribe .btn-danger {
+        border-color: #E41B17;
+        background-color: #E41B17;
+    }
+.stat .data {
+    background-color: rgba(6, 2, 91, 0.5);
+    color: #00b3c0;
+}
+.stat h1 {
+    color: #E41B17;
+}
+.stat .stats:hover {
+    color: #EEE;
+}
+.Our-achievement h1 {
+    color: black;
+}
+.Our-achievement .btn:hover {
+    background-color: #1000b6;
+}
+.Our-achievement .btn {
+    background-color:#E41B17;
+}
+.contact-us .fields {
+    background-color: rgba(6, 2, 91, 0.5);
+    color: #00b3c0;
+}
+.contact-us .fields h1{
+    color:#E41B17;
+}
+.contact-us .lead {
+        color: #acf6ff;
+    }
+.contact-us .btn:hover {
+    background-color: #1000b6;
+}
+.contact-us .btn {
+    background-color: #E41B17;
+}
+.contact-us input[type="text"], .contact-us textarea {
+    background: rgba(238, 234, 234, 0.97);
+}
+.contact-us input[type="text"]:hover, .contact-us textarea:hover {
+        background: #fff;
+    }
+.footer {
+    color: #AAA;
+}
+.footer .a {
+        color: #AAA;
+    }
+.footer .a:hover {
+        color: #fff;
+    }
+.footer h3 {
+        color: #E41B17;
+    }
+.footer .three-columns li:hover {
+        color: #fff;
+    }
+.footer .img-thumbnail {
+        background-color: black;
+
+    }
+.copyright .c {
+    background-color: rgba(7, 0, 0, 0.93);
+    color: #fff;
+}
+.copyright span {
+    color: #1000b6;
+}
+.option-box .color-option {
+    background-color: rgba(0, 239, 255, 0.16);
+}
+ .option-box .color-option h4 {
+
+        color: #E41B17;
+    }
+.option-box .color-option ul li {
+        background: #E41B17;
+    }
+.option-box .fa-cog {
+    background: #E41B17;
+    color: #0e0f66;
+}
+.price_table {
+    background-color: #AAA;
+}
+.price_table .btn-primary 
+{
+    background-color:#E41B17;
+}
+.price_table .btn-primary:hover
+{
+    background-color:#0e0f66;
+}
+.price_table .price_box h2
+{
+    color:#E41B17;
+}
+.price_table .price_box .p1
+{
+    background-color:rgba(233, 0, 0, 0.72);
+    color:#0e0f66;
+}
+.container-fluid .btn:hover {
+    background-color: #1000b6;
+}
+.container-fluid .btn {
+    background-color: #E41B17;
+}

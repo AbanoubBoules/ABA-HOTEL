@@ -1,0 +1,25 @@
+﻿body {
+}
+/*start of media*/
+@media screen and (max-width:768px) {
+    .navbar-nav > li > a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 16px;
+    }
+    .subscribe .form-control
+    {
+        margin:15px auto;
+    }
+    .footer .three-columns li {
+        width: 80%;
+        font-size: 17px;
+        padding: 10px 5px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1500px) {
+    .carousel-caption .lead {
+        display: none;
+    }
+}

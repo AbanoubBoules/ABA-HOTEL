@@ -1,0 +1,46 @@
+﻿/*welcome in rooms gallery*/
+body {
+    background-color: rgba(29, 0, 109, 0.98);
+}
+.backgroundimg {
+    background-image: url('images/inner-banner-1920x700.jpg');
+    width: 100%;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.backgroundimg h1 {
+    padding-top: 150px;
+    font-size: 64px;
+    color: #fff;
+
+}
+.gallery .container{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: rgba(29, 0, 109, 0.98);
+}
+.gallery img{
+    padding:7px;
+    width:350px;
+    height:200px;
+    filter:grayscale(100%);
+    transition:1s;
+}
+.gallery img:hover{
+    filter:grayscale(0);
+    transform:scale(1.1);
+}
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+.container
+{
+    width:100%;
+}
+
+
