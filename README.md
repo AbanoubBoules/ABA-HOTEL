@@ -4,6 +4,7 @@
 <img src="Screenshot (367).png" alt="Flowers in Chania">
 </br>
 <img src="Screenshot (368).png" alt="Flowers in Chania">
+<hr style="height:2px;border-width:0;color:gray;background-color:gray">
 <img src="Screenshot (369).png" alt="Flowers in Chania">
 <img src="Screenshot (370).png" alt="Flowers in Chania">
 <img src="Screenshot (371).png" alt="Flowers in Chania">
