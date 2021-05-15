@@ -10,3 +10,5 @@
 <img src="Screenshot (373).png" alt="Flowers in Chania">
 <img src="Screenshot (374).png" alt="Flowers in Chania">
 <img src="Screenshot (375).png" alt="Flowers in Chania">
+<img src="Screenshot (376).png" alt="Flowers in Chania">
+<img src="Screenshot (377).png" alt="Flowers in Chania">
